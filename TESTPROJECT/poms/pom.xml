@@ -8,6 +8,9 @@
   <packaging>pom</packaging>
   <name>TESTPROJECT Codes Master</name>
   <url>http://www.talend.org/</url>
+  <modules>
+    <module>code/routines</module>
+  </modules>
   <properties>
     <talend.project.name>TESTPROJECT</talend.project.name>
     <encoding>UTF-8</encoding>
