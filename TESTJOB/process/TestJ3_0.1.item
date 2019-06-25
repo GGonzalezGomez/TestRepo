@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -16,17 +18,17 @@
     <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
-    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
-    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
     <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
     <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
     <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
-    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/Users/guillermo.gonzalez/workspace/in.csv&quot;"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
     <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -45,42 +47,42 @@
     <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
     <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
     <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
-    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
-    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
-    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
-    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
     <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/guillermo.gonzalez/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tOracleOutput_sid"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
     <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.56.101&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;49162&quot;"/>
     <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;xe&quot;"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;TALAMCSIT&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;TALAMCSIT&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="PoLvNyVG2XWndNDdLn696A=="/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;TSTATCATCHER&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;TLOGCATCHER&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;TFLOWMETERCATCHER&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true"/>
     <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
     <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
     <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
@@ -102,13 +104,13 @@
     <routinesParameter id="_sUhxYJZsEemQU5e7ZXKc8A" name="TalendStringUtil"/>
     <routinesParameter id="_sQQVYJZsEemQU5e7ZXKc8A" name="TalendString"/>
   </parameters>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_62633c54-930a-4381-9289-3fcce90f3241"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fY0xXLnskZx7Iv6CTk158zJnh5AU+mst9pMLa5Plx07iW6vyRxP36q1GcHBVJDrmtNsMyIspzcas
-Blo/0ZOkxQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d454ae7e-7e39-4af5-a78d-2ae3613a27b2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>woCyO1zVXfmWsNH3vVzgNOKiARuY5f6EMRacb10An+NmL+S6jcBffL7nLfhtRFEQs2wWyBE6bMj2
-VmhmXY5U+w==</DigestValue></Reference></SignedInfo><SignatureValue>cjSD+94TYHOZxJlf5pvu0WNYWjRkGN31DCriea4i4A49mXlOSDLxjC0f8sdlYVP2bWyOEfOnIfAy
-oavyjTXudLXqlrBno0TC/Ektf6YqNZgReQR6WxWEHXPO6hrUC9KZLtLZ9oZ1hdn1nmUaDqOsXwKl
-nDDOobCQtgSggk1I1GZ12s6hXsnrUpmxDYT19WKO4WtVe0zVxROXbfBPrqt9u7li7AijcLaK+FnN
-nWEgc60BrO0U0VxoQJq6LP2uDj/FveEg+dIONmaT27I+DnikFAApkDclzaMc6L6pJ13NPzY2jONS
-EELpF+SgEgDjsKI2Fs2V7Az1y+jo3ifs0byXzg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_097ae987-761e-4372-b273-2b35646c3782"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HEW7PVdznw3640EnpwImTz5+NBp4CbKuHVPUQVgTwKio6+7Gevlh5yNw0vXsYebFSM3De2JNK0y/
+5Ug3qen8TA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_03f79df5-60a5-4cf9-ae91-81394b9b55f9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>E4bavDsauGrCyuWy3x4EFiropd7JOBhr4t8327ZgXXA/RJwfqupQl3uu5SewqLvoySupMEPa4XNd
+mVfIlLXCwA==</DigestValue></Reference></SignedInfo><SignatureValue>UDaRqZU3Dlz1AxzNKXzuUvUcWR+JaxoXBKJ4FLb6QjAL3XkYw/mm0UNFoaMqMnvOZxOmOz/Ymq4s
+KEOGIGHqXO48FH3gS7f3BPRhW01I//f5mMeYgIn+OB3ybfzt+7oUMQssRTbhFYdQGGjC6NC1oCuj
+fhBjlkQGAq+EAFSR+kSvSSrX7VSb8V15ZH4lvEPqloS+Rd7DZU4MSfF0JctO1S47ZbF9l9eFB6wU
+1zJTv1441j8itdBqoLJAI8SFHetoNhNAblys/23IY0oLrtW54TYQQjpzCFsmiv28zdtYkBzL/BGW
+ycgKEL03lqPNyV7vGW+b1fZy6BgjCqoYxT5yZQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -132,4 +134,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d454ae7e-7e39-4af5-a78d-2ae3613a27b2" Target="#_62633c54-930a-4381-9289-3fcce90f3241"><Timestamp>2019-06-25 13:06:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_03f79df5-60a5-4cf9-ae91-81394b9b55f9" Target="#_097ae987-761e-4372-b273-2b35646c3782"><Timestamp>2019-06-25 13:14:02</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
