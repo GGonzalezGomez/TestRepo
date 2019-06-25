@@ -18,5 +18,237 @@
   }, {
     "label" : "validated",
     "code" : "VAL"
-  } ]
+  } ],
+  "statAndLogsSettings" : {
+    "parameters" : {
+      "elementParameter" : [ {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "UPDATE_COMPONENTS",
+        "value" : "false",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "STATS_DEFAULT_PROJECTSETTING",
+        "value" : "true",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "ON_STATCATCHER_FLAG",
+        "value" : "true",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "ON_LOGCATCHER_FLAG",
+        "value" : "true",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "ON_METERCATCHER_FLAG",
+        "value" : "true",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "ON_CONSOLE_FLAG",
+        "value" : "false",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "ON_FILES_FLAG",
+        "value" : "false",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "DIRECTORY",
+        "name" : "FILE_PATH",
+        "value" : "\"C:/Users/guillermo.gonzalez/workspace/.metadata\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "FILENAME_STATS",
+        "value" : "\"stats_file.txt\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "FILENAME_LOGS",
+        "value" : "\"logs_file.txt\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "FILENAME_METTER",
+        "value" : "\"meter_file.txt\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "ENCODING_TYPE",
+        "name" : "ENCODING",
+        "value" : "ISO-8859-15",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "ON_DATABASE_FLAG",
+        "value" : "true",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "PROPERTY_TYPE",
+        "name" : "PROPERTY_TYPE",
+        "value" : "",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CLOSED_LIST",
+        "name" : "DB_TYPE",
+        "value" : "tOracleOutput_sid",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CLOSED_LIST",
+        "name" : "DB_VERSION",
+        "value" : "ORACLE_11",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "URL",
+        "value" : "\"\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TABLE",
+        "name" : "DRIVER_JAR",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "DRIVER_CLASS",
+        "value" : "\"\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "HOST",
+        "value" : "\"192.168.56.101\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "PORT",
+        "value" : "\"49162\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "DBNAME",
+        "value" : "\"xe\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "LOCAL_SERVICE_NAME",
+        "value" : "\"\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "PROPERTIES",
+        "value" : "\"\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "SCHEMA_DB",
+        "value" : "\"TALAMCSIT\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TEXT",
+        "name" : "USER",
+        "value" : "\"TALAMCSIT\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "PASSWORD",
+        "name" : "PASS",
+        "value" : "PoLvNyVG2XWndNDdLn696A==",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "FILE",
+        "name" : "DBFILE",
+        "value" : "\"\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "DBTABLE",
+        "name" : "TABLE_STATS",
+        "value" : "\"TSTATCATCHER\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "DBTABLE",
+        "name" : "TABLE_LOGS",
+        "value" : "\"TLOGCATCHER\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "DBTABLE",
+        "name" : "TABLE_METER",
+        "value" : "\"TFLOWMETERCATCHER\"",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "CATCH_RUNTIME_ERRORS",
+        "value" : "true",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "CATCH_USER_ERRORS",
+        "value" : "true",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "CATCH_USER_WARNING",
+        "value" : "true",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "CHECK",
+        "name" : "CATCH_REALTIME_STATS",
+        "value" : "true",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TECHNICAL",
+        "name" : "ENCODING:ENCODING_TYPE",
+        "value" : "ISO-8859-15",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TECHNICAL",
+        "name" : "PROPERTY_TYPE:PROPERTY_TYPE",
+        "value" : "BUILT_IN",
+        "contextMode" : false
+      }, {
+        "show" : true,
+        "field" : "TECHNICAL",
+        "name" : "PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE",
+        "value" : "",
+        "contextMode" : false
+      } ]
+    }
+  }
 }
