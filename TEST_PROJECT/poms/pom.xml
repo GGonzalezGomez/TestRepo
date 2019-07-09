@@ -10,6 +10,10 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process/js01_0.1</module>
+    <module>jobs/process/testj2_0.1</module>
+    <module>jobs/process/createtables_0.1</module>
+    <module>jobs/process/testj3_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TEST_PROJECT</talend.project.name>
