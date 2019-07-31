@@ -158,7 +158,7 @@ public class TalendDate {
      *
      * @param stringDate (A <code>String</code> whose beginning should be parsed)
      * @param pattern (the pattern to format, like: "yyyy-MM-dd HH:mm:ss")
-     * @return the result wheather the stringDate is a date string that with a right pattern
+     * @return the result whether the stringDate is a date string that with a right pattern
      *
      * {talendTypes} Boolean
      *
@@ -307,7 +307,7 @@ public class TalendDate {
      * @param date1 (first date)
      * @param date2 (second date)
      * @param pattern (compare specified part, example: "yyyy-MM-dd")
-     * @return the result wheather two date is the same, if first one less than second one return number -1, equlas
+     * @return the result whether two date is the same, if first one less than second one return number -1, equlas
      * return number 0, bigger than return number 1. (can compare partly)
      *
      * {talendTypes} Integer
@@ -352,7 +352,7 @@ public class TalendDate {
      *
      * @param date1 (first date)
      * @param date2 (second date)
-     * @return the result wheather two date is the same, if first one less than second one return number -1, equlas
+     * @return the result whether two date is the same, if first one less than second one return number -1, equlas
      * return number 0, bigger than return number 1. (can compare partly)
      *
      * {talendTypes} Integer
