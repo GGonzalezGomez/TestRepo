@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example.test_project</groupId>
   <artifactId>code.Master</artifactId>
-  <version>7.1.1</version>
+  <version>7.2.1</version>
   <packaging>pom</packaging>
   <name>TEST_PROJECT Codes Master</name>
   <url>http://www.talend.org/</url>
@@ -16,9 +16,9 @@
     <module>jobs/process/testj3_0.1</module>
   </modules>
   <properties>
+    <signer.version>7.2.1</signer.version>
     <talend.project.name>TEST_PROJECT</talend.project.name>
     <encoding>UTF-8</encoding>
-    <talend.version>7.1.1</talend.version>
     <maven.deploy.skip>true</maven.deploy.skip>
   </properties>
   <build>
@@ -35,7 +35,7 @@
             <dependency>
               <groupId>org.eclipse.tycho</groupId>
               <artifactId>tycho-compiler-jdt</artifactId>
-              <version>1.0.0</version>
+              <version>1.4.0</version>
             </dependency>
           </dependencies>
           <configuration>
@@ -71,7 +71,7 @@
       <plugin>
         <groupId>org.talend.ci</groupId>
         <artifactId>builder-maven-plugin</artifactId>
-        <version>${talend.version}</version>
+        <version>7.2.1</version>
         <executions>
           <execution>
             <phase>generate-sources</phase>
@@ -91,7 +91,7 @@
           <plugin>
             <groupId>org.talend.ci</groupId>
             <artifactId>cloudpublisher-maven-plugin</artifactId>
-            <version>${talend.version}</version>
+            <version>7.2.1</version>
             <executions>
               <execution>
                 <phase>deploy</phase>
