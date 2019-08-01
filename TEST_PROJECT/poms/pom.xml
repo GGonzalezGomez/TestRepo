@@ -15,6 +15,7 @@
     <module>jobs/process/createtables_0.1</module>
     <module>jobs/process/testj3_0.1</module>
     <module>jobs/process/poc_testj2_user_impersonation_0.1</module>
+    <module>jobs/process/diDemo/tac/tac_api_run_service_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
